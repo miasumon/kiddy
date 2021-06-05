@@ -1,0 +1,218 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+/*
+font-family: 'Handlee', cursive;
+
+font-family: 'Roboto', sans-serif
+  */
+
+
+}
+/*Kiddy Starts*/
+header{
+background: gray;
+}
+#kidyy{
+  padding: 10px 30px;
+}
+.kiddy-desc{
+  
+  margin: 20px 0;
+}
+
+
+/*Kiddy Ends*/
+
+
+
+
+/*Navbar Starts*/
+.navbar{
+  margin: 20px 30px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 20px;
+  
+}
+.navbar-toggler{
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  
+  
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+
+.nav-link{
+  text-align: center;
+  font-size: 20px;
+  transition: transform 0.5s;
+  margin: 5px 25px;
+  
+  
+}
+
+
+
+.nav-link:hover{
+  transform: scale(1.1);
+  
+  
+}
+
+
+
+.right-menu{
+  margin-top: 20px;
+}
+
+.right-menu li{
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 25px;
+  
+}
+
+
+/*Navbar Ends*/
+/*Intro Starts*/
+.intro-content{
+  margin: 30px 0;
+}
+
+.intro-content h4{
+  color:#0c00ff;
+  
+  
+}
+.intro-content h1{
+  font-family: 'Handlee', cursive;
+  font-size: 50px;
+  color: #fff;
+  margin: 30px 0;
+  
+}
+.intro-content p{
+  color: #fff;
+  margin: 30px 0;
+}
+
+
+
+.btn-learn{
+  border: 0;
+  outline: none;
+  padding: 15px 20px;
+  background: red;
+  border-radius: 0 30px 0 30px;
+  color: #fff;
+  
+}
+.intro-img img{
+  width: 100%;
+  margin-top: 30px;
+  padding: 40px;
+  
+}
+
+
+
+/*Intro Ends*/
+/*About us Starts*/
+
+#about{
+  
+}
+.section-content{
+  margin: 30px 0;
+  width: 80%;
+  max-width: 500px;
+  height: 100px;
+  box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+  margin: 30px auto;
+  padding: 40px;
+}
+
+.about-desc{
+  background: red;
+  color: #fff;
+  padding: 15px 25px;
+  margin: 30px 0;
+  position: relative;
+  
+}
+
+.about-desc h1{
+  margin: 25px 0;
+}
+.overlay{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top:-25px;
+  background: red;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+/*About us Ends*/
+/*Gallery Starts*/
+#gallery{
+  
+}
+
+.gallery-img{
+  margin: 30px 0;
+}
+
+.gallery-img img{
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+
+
+
+/*Gallery Ends*/
+/*Footer Starts*/
+footer{
+  background: #333;
+  color: white;
+  padding: 20px 40px;
+}
+.icon-style{
+  
+  margin: 10px 20px;
+  font-size: 25px;
+}
+
+
+/*Footer Ends*/
+
+
+/* For Large Screen 992px & up*/
+@media (min-width:992px){
+  
+  .intro-content h4{
+  font-size: 50px;
+  
+}
+.intro-content h1{
+  
+  font-size: 100px;
+  
+}
+.intro-content p{
+  font-size: 25px;
+}
+  
+  
+}
